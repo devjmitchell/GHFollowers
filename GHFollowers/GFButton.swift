@@ -15,6 +15,7 @@ class GFButton: UIButton {
         configure()
     }
     
+    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -34,5 +35,4 @@ class GFButton: UIButton {
         titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
         translatesAutoresizingMaskIntoConstraints = false
     }
-    
 }
