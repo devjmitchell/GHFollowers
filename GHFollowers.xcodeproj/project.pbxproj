@@ -74,6 +74,7 @@
 				D3CBEE3B23F0961B002E4306 /* Custom Views */,
 				D3CBEE3A23F095E4002E4306 /* Screens */,
 				D3CBEE3D23F096A8002E4306 /* Support */,
+				D3BCC6CE23ED28BF00860A73 /* Info.plist */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -115,7 +116,6 @@
 				D3BCC6C223ED28BE00860A73 /* SceneDelegate.swift */,
 				D3BCC6C923ED28BF00860A73 /* Assets.xcassets */,
 				D3BCC6CB23ED28BF00860A73 /* LaunchScreen.storyboard */,
-				D3BCC6CE23ED28BF00860A73 /* Info.plist */,
 			);
 			path = Support;
 			sourceTree = "<group>";
