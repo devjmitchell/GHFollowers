@@ -70,22 +70,54 @@
 		D3BCC6BF23ED28BE00860A73 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				D3CBEE3C23F09649002E4306 /* Extensions */,
+				D3CBEE3B23F0961B002E4306 /* Custom Views */,
+				D3CBEE3A23F095E4002E4306 /* Screens */,
+				D3CBEE3D23F096A8002E4306 /* Support */,
+			);
+			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		D3CBEE3A23F095E4002E4306 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				D39CE0DD23ED327200D7C2A2 /* SearchVC.swift */,
+				D39CE0DF23ED329B00D7C2A2 /* FavoriteListVC.swift */,
+				D3CBEE3023F064D6002E4306 /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D3CBEE3B23F0961B002E4306 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBEE3623F078D9002E4306 /* GFAlertVC.swift */,
+				D3CBEE2C23F05776002E4306 /* GFButton.swift */,
+				D3CBEE2E23F05A77002E4306 /* GFTextField.swift */,
+				D3CBEE3223F06DD8002E4306 /* GFTitleLabel.swift */,
+				D3CBEE3423F06FBC002E4306 /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		D3CBEE3C23F09649002E4306 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D3CBEE3823F07F3B002E4306 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D3CBEE3D23F096A8002E4306 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				D3BCC6C023ED28BE00860A73 /* AppDelegate.swift */,
 				D3BCC6C223ED28BE00860A73 /* SceneDelegate.swift */,
 				D3BCC6C923ED28BF00860A73 /* Assets.xcassets */,
 				D3BCC6CB23ED28BF00860A73 /* LaunchScreen.storyboard */,
 				D3BCC6CE23ED28BF00860A73 /* Info.plist */,
-				D39CE0DD23ED327200D7C2A2 /* SearchVC.swift */,
-				D39CE0DF23ED329B00D7C2A2 /* FavoriteListVC.swift */,
-				D3CBEE2C23F05776002E4306 /* GFButton.swift */,
-				D3CBEE2E23F05A77002E4306 /* GFTextField.swift */,
-				D3CBEE3023F064D6002E4306 /* FollowerListVC.swift */,
-				D3CBEE3223F06DD8002E4306 /* GFTitleLabel.swift */,
-				D3CBEE3423F06FBC002E4306 /* GFBodyLabel.swift */,
-				D3CBEE3623F078D9002E4306 /* GFAlertVC.swift */,
-				D3CBEE3823F07F3B002E4306 /* UIViewController+Ext.swift */,
 			);
-			path = GHFollowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
