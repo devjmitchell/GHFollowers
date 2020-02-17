@@ -29,6 +29,7 @@
 		D38BF0E923F45556006116A8 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BF0E823F45556006116A8 /* GFItemInfoVC.swift */; };
 		D38BF0EB23F45875006116A8 /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BF0EA23F45875006116A8 /* GFRepoItemVC.swift */; };
 		D38BF0ED23F45A22006116A8 /* GFFollowerItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38BF0EC23F45A22006116A8 /* GFFollowerItemVC.swift */; };
+		D39951DA23FAE5E1006608A3 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39951D923FAE5E1006608A3 /* UIView+Ext.swift */; };
 		D39CE0DE23ED327200D7C2A2 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE0DD23ED327200D7C2A2 /* SearchVC.swift */; };
 		D39CE0E023ED329B00D7C2A2 /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39CE0DF23ED329B00D7C2A2 /* FavoriteListVC.swift */; };
 		D3BCC6C123ED28BE00860A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BCC6C023ED28BE00860A73 /* AppDelegate.swift */; };
@@ -67,6 +68,7 @@
 		D38BF0E823F45556006116A8 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		D38BF0EA23F45875006116A8 /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		D38BF0EC23F45A22006116A8 /* GFFollowerItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowerItemVC.swift; sourceTree = "<group>"; };
+		D39951D923FAE5E1006608A3 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		D39CE0DD23ED327200D7C2A2 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		D39CE0DF23ED329B00D7C2A2 /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		D3BCC6BD23ED28BE00860A73 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +269,7 @@
 			children = (
 				D3CBEE3823F07F3B002E4306 /* UIViewController+Ext.swift */,
 				D319D53423F66066007FB378 /* Date+Ext.swift */,
+				D39951D923FAE5E1006608A3 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39951DA23FAE5E1006608A3 /* UIView+Ext.swift in Sources */,
 				D35B6A6D23F0A0B0004C42D4 /* User.swift in Sources */,
 				D3CBEE2F23F05A77002E4306 /* GFTextField.swift in Sources */,
 				D39CE0E023ED329B00D7C2A2 /* FavoriteListVC.swift in Sources */,
